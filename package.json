@@ -1,0 +1,20 @@
+{
+  "name": "gulp-vetocss",
+  "version": "1.0.1",
+  "description": "Gulp wrapper for VetoCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "vetocss"
+  ],
+  "author": "Christopher Kirk-Nielsen",
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "through2": "^4.0.2",
+    "vetocss": "^1.0.1"
+  }
+}
