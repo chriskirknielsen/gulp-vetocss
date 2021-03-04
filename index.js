@@ -7,7 +7,7 @@ module.exports = (selectors) => {
         let transformedFile = vinylFile.clone();
         let styles = transformedFile.contents.toString('utf-8');
 
-        let vetodStyles = vetocss(styles, styles);
+        let vetodStyles = vetocss(styles, selectors);
 
         // Return the fully processed stylesheet content
         transformedFile.contents = Buffer.from(vetodStyles); 
