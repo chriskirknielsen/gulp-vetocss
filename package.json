@@ -16,5 +16,6 @@
     "buffer": "^6.0.3",
     "through2": "^4.0.2",
     "vetocss": "^1.0.1"
-  }
+  },
+  "repository": "chriskirknielsen/gulp-vetocss"
 }
